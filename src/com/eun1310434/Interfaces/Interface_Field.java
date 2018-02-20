@@ -1,4 +1,10 @@
-package Interfaces;
+/**
+ * 20.02.2018
+ * eun1310434@naver.com
+ * https://blog.naver.com/eun1310434
+*/
+
+package com.eun1310434.Interfaces;
 
 interface Interface_Field_Interface{
 	String Name = "Interface_Field_Interface";
