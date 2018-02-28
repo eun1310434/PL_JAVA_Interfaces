@@ -1,3 +1,9 @@
+/**
+ * 28.02.2018
+ * eun1310434@naver.com
+ * https://blog.naver.com/eun1310434
+ * 참고) 쉽게 배우는 소프트웨어 공학, Java Documentation, 헬로 자바 프로그래밍
+*/
 package com.eun1310434.Interfaces;
 interface Interface_Default_Super {
 	public void M_a();
@@ -6,7 +12,7 @@ interface Interface_Default_Super {
 		// JAVA 8이 등장하면서 interface에 대한 정의가 몇 가지 변경되었다.
 		// 인터페이스가 default키워드로 선언되면 메소드가 구현 됨
 		// 또한 이를 구현하는 클래스는 default메소드를 오버라이딩 가능
-		System.out.println("Interface_Default_Super : M_c - aasdfasdfas");
+		System.out.println("Interface_Default_Super : M_c - default");
 	}
 }
 class Interface_Default_Child_a implements Interface_Default_Super {
