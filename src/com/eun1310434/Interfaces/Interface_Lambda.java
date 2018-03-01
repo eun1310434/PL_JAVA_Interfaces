@@ -6,13 +6,13 @@
 */
 package com.eun1310434.Interfaces;
 
-interface LambdaInterface_I{
+interface Interface_Lambda_I{
     public int method(int value1, int value2);
 }
 
 public class Interface_Lambda {   
 	
-    public static void exec(int a, int b, LambdaInterface_I I){
+    public static void exec(int a, int b, Interface_Lambda_I I){
         int k = 10;
         int m = 20;
         int value = I.method(k, m);

@@ -7,11 +7,11 @@
 package com.eun1310434.Interfaces;
 import java.util.ArrayList;
 import java.util.List;
-interface Lambda_I_check {
+interface Interface_Lambda1_I_check {
 	boolean check(Integer n);
 }
 public class Interface_Lambda1 {
-	public static void printData(List<Integer> list, Lambda_I_check I) {
+	public static void printData(List<Integer> list, Interface_Lambda1_I_check I) {
 		for(Integer n: list) {
 			//for(int n ; n < list.size(); n++)
 			if(I.check(n)){
